@@ -122,7 +122,7 @@
                 <h3> <span class="price-big">3.0</span> метра - <span class="price-green">600</span> <span class="price-rub">р.</span></h3>
             </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-gold">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -145,7 +145,7 @@
             <h3> <span class="price-big">3.0</span> метра - <span class="price-green">600</span> <span class="price-rub">р.</span></h3>
           </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-lux">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -166,7 +166,7 @@
             <h3> <span class="price-big">3.0</span> метра - <span class="price-green">600</span> <span class="price-rub">р.</span></h3>
           </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-barocco">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -186,7 +186,7 @@
             <h3> <span class="price-big">2.1</span> метра - <span class="price-green">580</span> <span class="price-rub">р.</span></h3>
           </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-model-one">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -203,7 +203,7 @@
             <h3> <span class="price-big">2.5</span> метра - <span class="price-green">570</span> <span class="price-rub">р.</span></h3>
          </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-model-two">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -223,7 +223,7 @@
             <h3> <span class="price-big">2.5</span> метра - <span class="price-green">320</span> <span class="price-rub">р.</span></h3>
          </div>
         </div>
-        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg">Заказать ёлочку</button>
+        <button class="video-btn btn-carousel" data-toggle="modal" data-target=".bs-example-modal-lg-model-three">Заказать ёлочку</button>
         <p>Заказывая ёлочку у нас вы получите 10 метровую новогоднюю гирлянду в подарок!</p>
       </div>
     </div>
@@ -271,8 +271,6 @@
     </div>
   </div>
 </div>
-
-
 
 <div class="container">
     <div class="col-lg-12">
@@ -360,33 +358,57 @@
 
 
 <!-- .Popup -->
-
 <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h2>Заказать ёлочку: <span class="modal-green-title">Сосна "Модель #1"</span></h2>
+            <h2><span class="modal-green-title">Заказать ёлочку</span></h2>
         </div>
         <div class="modal-body">
-
-
-
-
-
         <div class="modal-block">
             <div>
                 <p>Меня зовут:</p>
-                <input type="text" class="modal-textarea" name="name" size="40" placeholder="Введите ваше имя">
-                
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
             </div>
             <div>
                 <p>Мой контактный телефон:</p>
-                <input type="tel" class="modal-textarea" name="" size="40" placeholder="Введите ваш номер телефона">
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
             </div>
         </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
 
 
+
+<!-- .Popup gold -->
+<div class="modal fade bs-example-modal-lg-gold" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Ель "Gold"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
         <div class="modal-item">
             <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
             <p><input type="checkbox" name="" >1.2 метра - 140 р</p>
@@ -394,18 +416,198 @@
             <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
             <p><input type="checkbox" name="" >2.2 метра - 280 р</p>
             <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+            <p><input type="checkbox" name="" >3.0 метра - 600 р</p>
         </div>
-
         <div class="modal-buttons">
             <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
             <button type="button" class="!close modal-but-submit" value="">Заказать</button>
         </div>
-
         </div>
     </div>
   </div>
 </div>
 
-<!-- .Popup -->
+<!-- .Popup lux -->
+<div class="modal fade bs-example-modal-lg-lux" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Ель "Lux"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.2 метра - 140 р</p>
+            <p><input type="checkbox" name="" >1.5 метра - 180 р</p>
+            <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
+            <p><input type="checkbox" name="" >2.1 метра - 280 р</p>
+            <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+            <p><input type="checkbox" name="" >3.0 метра - 600 р</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- .Popup barocco -->
+<div class="modal fade bs-example-modal-lg-barocco" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Ель "Барокко"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.2 метра - 140 р</p>
+            <p><input type="checkbox" name="" >1.5 метра - 180 р</p>
+            <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
+            <p><input type="checkbox" name="" >2.1 метра - 280 р</p>
+            <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+            <p><input type="checkbox" name="" >3.0 метра - 600 р</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- .Popup model-one -->
+<div class="modal fade bs-example-modal-lg-model-one" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Сосна "Модель #1"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.2 метра - 167 р</p>
+            <p><input type="checkbox" name="" >1.5 метра - 285 р</p>
+            <p><input type="checkbox" name="" >1.8 метра - 385 р</p>
+            <p><input type="checkbox" name="" >2.1 метра - 580 р</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- .Popup model-two -->
+<div class="modal fade bs-example-modal-lg-model-two" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Сосна "Модель #2"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
+            <p><input type="checkbox" name="" >2.1 метра - 280 р</p>
+            <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- .Popup model-three -->
+<div class="modal fade bs-example-modal-lg-model-three" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Сосна "Модель #3"</span></h2>
+        </div>
+        <div class="modal-body">
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" placeholder="Введите ваше имя">
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.2 метра - 120 р</p>
+            <p><input type="checkbox" name="" >1.5 метра - 180 р</p>
+            <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
+            <p><input type="checkbox" name="" >2.2 метра - 280 р</p>
+            <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+        </div>
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- /.Popup -->
 </body>
 </html>

@@ -7,7 +7,14 @@
 
 @media (max-width: 992px) {
 .header-title { width: 60% !important; }
-.header-contact {
+
+
+~.header-title { width: 50% !important; }
+~.header-title>h1 { font-size: 27px !important; }
+~.header-title>h2 { font-size: 17px !important; }
+~.header-contact>h2 { font-size: 18px !important; }
+
+~.header-contact {
     width: 100%;
     align-items: center;
     text-align: center !important;
@@ -465,7 +472,7 @@ video {
 .btn-carousel {
     position: relative;
     width: 55%;
-    right: 18%;
+    right: 14%;
     top: 100px;
 }
 
@@ -518,6 +525,7 @@ video {
     margin-top: 3%;
     justify-content: space-around;
     align-items: baseline;
+    width: 100%;
 }
 
 .bullets-item h3 {
@@ -638,7 +646,7 @@ video {
 
 .body-last {
     background-image: url(images/bg-foot.png);
-    height: 405px;
+    height: 380px;
 }
 
 .body-last h1 {
@@ -658,8 +666,6 @@ video {
     width: 40%;
     right: 0;
     top: 55px;
-
-~    width: 165px;
     height: 38px;
     color: white;
     font-family: "Roboto";
@@ -675,12 +681,13 @@ video {
 
 
 .body-last-icon {
-    height: 130px;
+    height: 110px;
     text-align: inherit;
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
     min-width: 590px;
+    padding-bottom: 10px;
 }
 
 
@@ -695,14 +702,13 @@ video {
 .footer {
     border-top: 1px green solid;
     background-image: url(images/bg-foot.png);
-    height: 150px;
+    height: 110px;
     width: 100%;
 }
 
 .footer-title {
     display: inherit;
     width: 40%;
-    padding-left: 80px;
     padding-top: 30px;
     height: 100%;
     align-items: center;
@@ -767,6 +773,7 @@ video {
 
 .modal-textarea {
     padding: 3px 0px 3px 10px;
+    width: 130%;
 }
 
 .modal-item input {

@@ -32,7 +32,7 @@
             <img src="images/icon-whatsapp.png">
          </div>   
          <div class="header-btn">
-            <button class="head-btn" type="submit">Заказать обратный звонок</button>
+            <button class="head-btn" data-toggle="modal" data-target=".bs-example-modal-lg" type="submit">Заказать обратный звонок</button>
         </div>
         <div class="empty">
         </div>
@@ -366,10 +366,41 @@
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h2>ХОЧУ ЕЛКУ-у-у-у</h2>
+            <h2>Заказать ёлочку: <span class="modal-green-title">Сосна "Модель #1"</span></h2>
         </div>
         <div class="modal-body">
-            <p>!!!Срочно привезите мне сюда ель мою!!!</p>
+
+
+
+
+
+        <div class="modal-block">
+            <div>
+                <p>Меня зовут:</p>
+                <input type="text" class="modal-textarea" name="name" size="40" placeholder="Введите ваше имя">
+                
+            </div>
+            <div>
+                <p>Мой контактный телефон:</p>
+                <input type="tel" class="modal-textarea" name="" size="40" placeholder="Введите ваш номер телефона">
+            </div>
+        </div>
+
+
+        <div class="modal-item">
+            <p class="modal-text">Выберите размер елочки, которую хотите заказать:</p>
+            <p><input type="checkbox" name="" >1.2 метра - 140 р</p>
+            <p><input type="checkbox" name="" >1.5 метра - 180 р</p>
+            <p><input type="checkbox" name="" >1.8 метра - 240 р</p>
+            <p><input type="checkbox" name="" >2.2 метра - 280 р</p>
+            <p><input type="checkbox" name="" >2.5 метра - 320 р</p>
+        </div>
+
+        <div class="modal-buttons">
+            <button type="button" class="!close modal-but-cancel" data-dismiss="modal" aria-hidden="true">Отмена</button>
+            <button type="button" class="!close modal-but-submit" value="">Заказать</button>
+        </div>
+
         </div>
     </div>
   </div>

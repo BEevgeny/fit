@@ -604,6 +604,10 @@ video {
     height: 100%;
 }
 
+.why-us-left p {
+    width: 74%;
+}
+
 .wul-first {
     margin-top: 125px;
 }
@@ -671,7 +675,7 @@ video {
 
 
 .body-last-icon {
-    height: 190px;
+    height: 130px;
     text-align: inherit;
     justify-content: space-around;
     align-items: flex-end;
@@ -684,7 +688,7 @@ video {
 
 
 .logo {
-    height: 180px;
+    height: 250px;
     text-align: center;
 }
 
@@ -739,11 +743,75 @@ video {
 
 
 
+/* PopUp */
+.modal-header {
+    margin-left: 15px;
+}
 
+.modal-green-title {
+    color: #6aa13a;
+    font-size: 30px;
+    font-weight: 700;
+}
 
+.modal-body {
+    margin-left: 25px;
+}
 
+.modal-block {
+    margin-bottom: 15px;
+    display: inline-flex;
+    width: 85%;
+    justify-content: space-between;
+}
 
+.modal-textarea {
+    padding: 3px 0px 3px 10px;
+}
 
+.modal-item input {
+    height: 20px;
+    width: 20px;
+    margin: 0px 15px 10px 0px;
+}
 
+.modal-text {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.modal-buttons {
+    right: 6px;
+    text-align: end;
+}
+
+.modal-but-cancel {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    border-radius: 4px;
+    border: 0;
+    border-bottom: 3px solid #a7a7a7;
+    margin: 5px 15px;
+}
+
+.modal-but-submit {
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    background-color: #76be32;
+    border-radius: 4px;
+    border: 0;
+    border-bottom: 3px solid #468815;
+    margin: 5px 15px;
+}
 
 

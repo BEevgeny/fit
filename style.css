@@ -358,6 +358,7 @@ video {
 .nav {
     border-bottom: 1px #c6cfd8 solid;
     width: 100%;
+    align-items: flex-end;
 }
 
 .nav>li {

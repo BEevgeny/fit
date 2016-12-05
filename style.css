@@ -14,7 +14,7 @@
 ~.header-title>h2 { font-size: 17px !important; }
 ~.header-contact>h2 { font-size: 18px !important; }
 
-~.header-contact {
+.header-contact {
     width: 100%;
     align-items: center;
     text-align: center !important;
@@ -39,7 +39,7 @@
 
 
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
     .nav>li>img { display: none !important; }
     .bullets-item {
         flex-direction: column;
@@ -114,6 +114,12 @@
 .footer-contacts {
     display: inline !important;
     width: 100% !important; }
+
+
+.carousel-control.left { display: none !important; }
+.carousel-control.right { display: none !important; }
+
+
 
 }
 
@@ -192,7 +198,7 @@
 }
 
 .container {
-    min-width: 590px;
+    min-width: 600px;
 }
 
 .block-flex {
@@ -292,6 +298,8 @@
        #f1f3f5 url(images/bg-gray.png) repeat-y 100% 0;
        background-size: 50%;
     height: 550px;
+    width: 100%;
+    min-width: 600px;
 }
 
     .header-video>.container {
@@ -302,13 +310,6 @@
     display: inline-flex;
 }
 
-
-video {
-    width: 686px;
-    height: 387px;
-    background-color: #f1f3f5;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-}
 
 .video-text {
     font-family: Georgia;
@@ -336,6 +337,33 @@ video {
     border: 0;
     border-bottom: 3px solid #468815;
 }
+
+
+
+.video {
+    max-width: 560px;
+    width: 100%;
+    margin: auto;
+    height: 320px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* BODY */
@@ -518,8 +546,10 @@ video {
 /* bullets */
 
 .bullets {
-   background: url(images/rectangle-4.png);
-   height: 430px;
+    background: url(images/rectangle-4.png);
+    height: 430px;
+    width: 100%;
+    min-width: 600px;
 }
 .bullets-item {
     margin-top: 3%;
@@ -650,6 +680,12 @@ video {
 .body-last {
     background-image: url(images/bg-foot.png);
     height: 380px;
+    width: 100%;
+    min-width: 600px;
+}
+
+.half-fit {
+    padding-right: 0;
 }
 
 .body-last h1 {
@@ -707,6 +743,7 @@ video {
     background-image: url(images/bg-foot.png);
     height: 110px;
     width: 100%;
+    min-width: 600px;
 }
 
 .footer-title {

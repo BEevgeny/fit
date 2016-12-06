@@ -59,13 +59,16 @@
     padding: 10px 0;
 }
 
-    .header-contact>img{
+    .header-contact>a{
         margin: 3px 8px;
         border-radius: 25px;
         cursor: pointer;
     }
 
-    .header-contact>img:hover{
+    .header-contact>a:hover{
+        box-shadow: 0px 0px 43px 0px rgba(46,58,72,0.49);
+    }
+    .header-contact>a:hover{
         box-shadow: 0px 0px 43px 0px rgba(46,58,72,0.49);
     }
 
@@ -581,13 +584,13 @@
     font-weight: 700;
 }
 
-.footer-contacts>img {
+.footer-contacts>a {
     margin: 3px 8px;
     border-radius: 25px;
     cursor: pointer;
 }
 
-    .footer-contacts>img:hover{
+    .footer-contacts>a:hover{
         box-shadow: 0px 0px 43px 0px rgba(46,58,72,0.49);
     }
 
@@ -884,7 +887,9 @@ border-top: 1px #76be32 solid;
     background-image: url(images/who-us-bac-rigth.png);
     display: inline-flex;
     flex-direction: column;
-    height: 100%; }
+    height: 100%; 
+    width: 105%;
+}
 .wur-first, .wur-second,.wur-third, .wul-first, .wul-second  {
     margin: 0; }
 .why-us-left, .why-us-right {

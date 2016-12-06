@@ -519,10 +519,12 @@
 
 .body-last {
     background-image: url(images/bg-foot.png);
-//    height: 380px;
     width: 100%;
-    //min-width: 600px;
 }
+
+.body-last-padd {
+    padding: 10px;
+ }
 
 .half-fit {
     padding-right: 0;
@@ -538,7 +540,6 @@
     margin: auto;
     text-align: center;
     margin-top: 3%;
-    //min-width: 500px;
 }
 
 .body-last button {
@@ -730,6 +731,12 @@
     align-items: center; }
 
 .video-text { padding-top: 1%; }
+
+.header-contact {
+border-top: 1px #76be32 solid;
+     }
+
+
 .header-video { background: url(images/bg-gray.png) repeat-y; }
 .carousel-caption {
     top: 0;

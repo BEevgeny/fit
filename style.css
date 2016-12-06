@@ -18,8 +18,6 @@
 }
 
 
-
-
 /* HEADER */
 .header-info {
     height: 130px;
@@ -30,7 +28,6 @@
     height: 100%;
     width: 100%;
 }
-
 
 .header-logo {
     vertical-align: middle;
@@ -110,7 +107,6 @@
     height: 100%;
     min-height: 550px;
     width: 100%;
-    //min-width: 600px;
 }
 
     .header-video>.container {
@@ -200,13 +196,11 @@
 }
 
 
-
-/* Указатели для <768 */
 .carousel-indicators-smoll {
     margin: auto;
     width: 100px;
+    display: none;
 }
-
 
 .carousel-indicators-smoll .active {
     width: 12px;
@@ -225,9 +219,6 @@
     border: 1px solid #ddc0a3;
     border-radius: 10px;
 }
-
-
-
 
 
 .nav {
@@ -344,24 +335,11 @@
     top: 100px;
 }
 
-.model-barocco {
+
+
+.model-one,.model-barocco,.model-two,.model-three {
     top: 9%;
 }
-
-.model-one {
-    top: 9%;
-}
-
-.model-two {
-    top: 9%;
-}
-
-
-.model-three {
-    top: 9%;
-}
-
-
 
 .carousel-control { 
     width: 8%;
@@ -382,14 +360,11 @@
 }
 
 
-
 /* bullets */
 
 .bullets {
     background: url(images/rectangle-4.png);
     height: 430px;
-    //width: 100%;
-    //min-width: 600px;
 }
 .bullets-item {
     margin-top: 3%;
@@ -555,7 +530,6 @@
     border-radius: 3px;
     border: 0;
     border-bottom: 3px solid #468815;
-
 }
 
 
@@ -565,9 +539,6 @@
 .body-last-icon>div {
     width: 100%;
 }
-
-
-
 
 
 .logo {
@@ -622,8 +593,6 @@
 
 
 
-
-
 /* PopUp */
 .modal-content {
     margin: auto;
@@ -633,8 +602,18 @@
 .modal-header {
     margin-left: 15px;
 }
+
+
 .modal-header h2 {
     margin: 10px;
+}
+
+
+@media (max-width: 425px) {
+.modal-header h2 {
+    margin: 10px;
+    text-align: center;
+}
 }
 
 .modal-green-title {
@@ -647,31 +626,21 @@
     margin-left: 25px;
 }
 
-.modal-block {
-    margin-bottom: 15px;
-    display: inline-flex;
-    width: 85%;
-    justify-content: space-between;
-}
 
 .modal-textarea {
     padding: 3px 0 3px 15px;
     border: 1px darkgrey solid;
-    width: 50%;
-}
-@media (max-width: 768px) {
-.modal-textarea {
-    width: 70%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
-}
-
-@media (max-width: 425px)
-{.modal-textarea {
+@media (max-width: 425px) {
+    .modal-textarea {
     width: 85%;
     font-size: 15px;
 } 
 }
+
 
 @media (max-width: 320px) {
 .modal-textarea {
@@ -680,6 +649,11 @@
     font-size: 14px;
 } 
 }
+
+.modal-item {
+    margin-bottom: 20px;
+}
+
 
 .modal-item input {
     height: 20px;
@@ -697,7 +671,9 @@
 }
 
 .modal-buttons {
-    right: 6px;
+    text-align: end;
+    margin-right: 25px;
+    margin: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -706,7 +682,6 @@
     margin-right: 25px;
 }
 }
-
 
 .modal-but-cancel {
     width: 150px;
@@ -739,12 +714,25 @@
 
 /* общий попап  */
 .modal-content-all {
-
+    margin: auto;
+    width: 50%;
 }
+@media (max-width: 768px) {
+.modal-content-all {
+    width: 80%;
+}
+}
+
+@media (max-width: 375px) {
+.modal-content-all {
+    width: 100%;
+}
+}
+
 .modal-textarea-all {
     padding: 3px 0 3px 15px;
     border: 1px darkgrey solid;
-    width: 50%;
+    width: 80%;
 }
 @media (max-width: 768px) {
 .modal-textarea-all {
@@ -768,23 +756,24 @@
 } 
 }
 
-/*    font-size: 17px;
-    font-weight: 400;
-    margin: 30px 0px;
-    font-size: x-large;*/
-
-
 
 .modal-text-all {
     font-size: 17px;
-    font-weight: 400;
+}
+.modal-item .modal-text-all {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+
 }
 .modal-text-all p {
     margin: 10px 0;
 }
 
 .modal-buttons-all {
-    right: 6px;
+    text-align: center;
+    margin-right: 25px;
+
 }
 
 @media (max-width: 768px) {
@@ -793,20 +782,6 @@
     margin-right: 25px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -833,8 +808,9 @@
 }
 .price-big { font-size: 20px; }
 .price-green { font-size: 20px; }
-.fit-two-block { margin: auto; }
-
+.fit-two-block {
+    margin: auto;
+}
 }
 
 
@@ -954,7 +930,7 @@ border-top: 1px #76be32 solid;
 .carousel-control.left { display: none; }
 .carousel-control.right { display: none; }
 .carousel-indicators-smoll {
-    display: none;
+    display: inherit;
     }
 }
 
@@ -993,10 +969,6 @@ border-top: 1px #76be32 solid;
 .body-last button {
     top: 20px;
 }
-
-
-
-
 }
 
 
@@ -1016,9 +988,4 @@ border-top: 1px #76be32 solid;
 .logo {
     min-height: 160px;
 }
-
-
-
 }
-
-
